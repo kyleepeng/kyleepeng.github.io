@@ -1,0 +1,21 @@
+/* -------fonts-------- */
+h1{
+  font-family: 'Noto Serif SC', serif;
+  font-size: 100px;
+  position: relative;
+  left: 40px;
+  color: #9BB4EB;
+  opacity: 0.2;
+}
+
+h2{
+  font-family: 'Crimson Text', serif;
+  font-size: 60px;
+  position: relative;
+  top: -30px;
+}
+
+h6{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}

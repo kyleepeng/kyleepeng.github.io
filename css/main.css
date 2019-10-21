@@ -16,16 +16,19 @@ h2{
   position: relative;
 }
 
+h5{
+  font-family: 'Crimson Text', serif;
+  color: #253C70;
+}
+
 /* paragraphs and footer */
 h6{
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
   color: #FFFFFF;
 }
 
 a{
   font-family: 'Crimson Text', serif;
-  font-size: 16px;
 }
 
 #highlight{
@@ -42,6 +45,13 @@ a{
   h2{
     font-size: 30px;
     top: -15px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  h6{
+    font-size: 13px;
+    line-height: 1.5;
   }
   a{
     font-size: 16px;
@@ -61,6 +71,9 @@ a{
     font-size: 34px;
     top: -20px;
   }
+  h5{
+    font-size: 15px;
+  }
 }
 
 
@@ -72,6 +85,10 @@ a{
   h2{
     font-size: 40px;
     top: -25px;
+  }
+  h6{
+    font-size: 14px;
+    line-height: 1.5;
   }
 }
 
@@ -92,6 +109,9 @@ a{
   }
   h2{
     font-size: 60px;
+  }
+  h5{
+    font-size: 16px;
   }
   a{
     font-size: 18px;
@@ -119,6 +139,7 @@ a{
 /* -------navbar-------- */
 nav {
   background-color: rgba(250,255,255,0.7);
+  backdrop-filter: blur(4px);
   font-size: 20px;
   max-height: 8vh;
 }
@@ -143,8 +164,23 @@ nav {
   text-shadow: 0px 0px 1px #9BB4EB;
 }
 
+/* -------project------- */
+.project{
+  max-width: 100vw;
+}
+
+.project img{
+  max-width: 75vw;
+}
+
 /* -------footer-------- */
 footer{
   background-color: #253C70;
   color: #FFFFFF;
+}
+
+.footer-icons img{
+  display: block;
+  max-height: 4vh;
+  width: auto;
 }

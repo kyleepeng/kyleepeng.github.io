@@ -25,10 +25,42 @@ h6{
   color: #FFFFFF;
 }
 
+a{
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+}
+
 #highlight{
   color: #9BB4EB;
 }
 
+
+/* -------navbar-------- */
+nav {
+  background-color: rgba(250,255,255,0.7);
+  font-size: 20px;
+  max-height: 8vh;
+}
+
+.logo{
+  display: block;
+  max-height: 5vh;
+  width: auto;
+}
+
+.nav-link {
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #9BB4EB;
+}
+
+.nav-link.active{
+  color: #253C70;
+  font-weight: 300;
+  text-shadow: 0px 0px 1px #9BB4EB;
+}
 
 /* -------footer-------- */
 footer{

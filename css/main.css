@@ -2,9 +2,9 @@
 /* chinese */
 h1{
   font-family: 'Noto Serif SC', serif;
-  font-size: 100px;
   position: relative;
-  left: 40px;
+  margin-top: 15vh;
+  /* margin-left: 3vw; */
   color: #9BB4EB;
   opacity: 0.2;
 }
@@ -13,9 +13,7 @@ h1{
 h2{
   font-family: 'Crimson Text', serif;
   color: #253C70;
-  font-size: 60px;
   position: relative;
-  top: -30px;
 }
 
 /* paragraphs and footer */
@@ -33,6 +31,89 @@ a{
 #highlight{
   color: #9BB4EB;
 }
+
+/* ------- Media Queries ------- */
+/*  Extra small devices (less than 576 px)*/
+@media (min-width: 0px) {
+  h1{
+    font-size: 50px;
+    padding-left: 4vw;
+  }
+  h2{
+    font-size: 30px;
+    top: -15px;
+  }
+  a{
+    font-size: 16px;
+  }
+  .title-text{
+    padding-left: 5vw;
+    padding-right: 3vw;
+  }
+}
+
+/* xs-s */
+@media (min-width: 510px) {
+  h1{
+    font-size: 60px;
+  }
+  h2{
+    font-size: 34px;
+    top: -20px;
+  }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1{
+    font-size: 75px;
+  }
+  h2{
+    font-size: 40px;
+    top: -25px;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1{
+    font-size: 80px;
+  }
+  h2{
+    font-size: 50px;
+  }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1{
+    font-size: 90px;
+  }
+  h2{
+    font-size: 60px;
+  }
+  a{
+    font-size: 18px;
+  }
+  .title-text{
+    padding-left: 7vw;
+    padding-right: 8vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1{
+    font-size: 100px;
+  }
+  h2{
+    font-size: 70px;
+  }
+  a{
+    font-size: 20px;
+  }
+ }
 
 
 /* -------navbar-------- */

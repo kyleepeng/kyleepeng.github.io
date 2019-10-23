@@ -1,6 +1,5 @@
 asap:
 - project card layout
-- about page content
 - work in progress page
 - link resume
 

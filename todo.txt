@@ -1,14 +1,15 @@
 asap:
+- set up dev branch
 - project card layout
 - work in progress page
-- link resume
+  - link resume
 
 soon:
 - case studies
 - 404 page
+- home title js
 - parallax
 - illustrations
-  - get rid of arrow once illustrations are up
 
 stretch:
 - transition between pages

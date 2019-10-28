@@ -15,8 +15,21 @@ h2{
   position: relative;
 }
 
+h3{
+  font-family: 'Crimson Text', serif;
+  color: #253C70;
+  font-weight: bold;
+}
+
+h4{
+  font-family: 'Crimson Text', serif;
+  color: #253C70;
+  font-weight: lighter;
+  font-style: italic;
+}
+
 /* smaller text */
-h3,h4,h5{
+h5{
   font-family: 'Crimson Text', serif;
   color: #253C70;
 }
@@ -110,6 +123,11 @@ a{
   max-width: 100vw;
   height: 60vh;
   background-color: rgb(235, 242, 255);
+}
+
+.project:hover{
+  text-decoration: none;
+  background-color: rgb(222, 234, 255);
 }
 
 /* ----------button---------- */

@@ -11,12 +11,12 @@
   }
   h3{
     font-size: 20px;
-    font-weight: bold;
+  }
+  h3 span{
+    font-size: 15px;
   }
   h4{
     font-size: 14px;
-    font-weight: lighter;
-    font-style: italic;
   }
   h5{
     font-size: 14px;
@@ -25,7 +25,7 @@
     font-size: 12px;
     line-height: 1.5;
   }
-  p{
+  p, li{
     font-size: 15px;
     line-height: 1.5;
   }
@@ -39,7 +39,7 @@
   .title{
     flex-direction: column;
   }
-  .title-text{
+  .title-text, .case-study{
     padding-left: 5vw;
     padding-right: 3vw;
   }
@@ -56,6 +56,9 @@
   }
   h3{
     font-size: 26px;
+  }
+  h3 span{
+    font-size: 20px;
   }
   h4{
     font-size: 16px;
@@ -82,9 +85,9 @@
     font-size: 13px;
     line-height: 1.5;
   }
-  p{
+  p, li{
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
   footer a{
     font-size: 13px;
@@ -106,8 +109,11 @@
   h3{
     font-size:30px;
   }
+  h3 span{
+    font-size: 22px;
+  }
   h4{
-    font-size: 18px;
+    font-size: 17px;
   }
   .title{
     flex-direction: row;
@@ -131,9 +137,9 @@
     font-size: 14px;
   }
   a{
-    font-size: 16px;
+    font-size: 18px;
   }
-  .title-text{
+  .title-text, .case-study{
     padding-left: 7vw;
     padding-right: 8vw;
   }

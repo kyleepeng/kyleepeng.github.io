@@ -20,7 +20,6 @@ h3{
   font-family: 'Crimson Text', serif;
   color: #9BB4EB;
   font-weight: lighter;
-  top: -30px;
 }
 
 .section h3 span{
@@ -119,6 +118,12 @@ li {
   margin-bottom:10vh;
 }
 
+/* ----------banner---------- */
+.project-banner{
+  width: 100vw;
+  background-color: rgb(235, 242, 255);
+}
+
 /* ----------project---------- */
 .project{
   max-width: 100vw;
@@ -127,6 +132,25 @@ li {
 }
 
 /* ----------case study---------- */
+
+.images img{
+  width: 30%;
+  background-color: rgb(235, 242, 255);
+  opacity: 0.9;
+  -webkit-filter: drop-shadow(5px 5px 5px #B0B0B0);
+  filter: drop-shadow(5px 5px 5px #B0B0B0);
+}
+
+.images-grid img{
+  -webkit-filter: drop-shadow(5px 5px 5px #B0B0B0);
+  filter: drop-shadow(5px 5px 5px #B0B0B0);
+}
+
+.sprint{
+  -webkit-filter: drop-shadow(5px 5px 5px #B0B0B0);
+  filter: drop-shadow(5px 5px 5px #B0B0B0);
+}
+
 
 /* ----------button---------- */
 .button{

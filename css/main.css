@@ -98,17 +98,6 @@ a{
 /* ----------title---------- */
 .title-text{
   margin-bottom:10vh;
-  font-size: 18px;
-}
-
-.title-text a{
-  font-family: 'Lato', serif;
-  font-weight: 300;
-}
-
-.title-text a:hover{
-  color: #9BB4EB;
-  text-decoration: none;
 }
 
 /* ----------arrow---------- */

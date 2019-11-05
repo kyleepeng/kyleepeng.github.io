@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cooking — Kylee Peng</title>
+    <!-- CSS -->
+    <link rel="icon" href="../../img/logo_dark.png" type="png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/projects.css">
+    <link rel="stylesheet" href="../../css/media_queries.css">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md fixed-top d-flex align-items-center">
+      <a class="navbar-brand mr-auto" href='../../index.html'>
+        <img src="../../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="dropdown">
+        <div class="navbar-nav text-right">
+          <a class="nav-item nav-link m-2" href="../../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="../about.html">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- title -->
+    <div class="title vh-75 my-5 align-self-center" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text align-self-center justify-content-center pt-5">
+        <h1> </h1>
+        <h2>Noms</h2>
+        <h3>Easy Cooking for Specific Diets</h3>
+    </div>
+    </div>
+
+    <!-- background -->
+    <div class="case-study project-banner d-flex"  data-aos="fade-up" data-aos-duration="1000">
+      <div class='section d-flex flex-column my-5 py-2'>
+        <h3>Background</h3>
+        <p class='mt-3'>
+          Noms is an app that was created with my two very talented group
+          members in an interaction design course within 10 weeks. The
+          inspiration behind the app came from my suite mate who is
+          deathly allergic to tree nuts but loves to cook. I wanted to
+          create something that encouraged people like her who had dietary
+          restrictions to become more comfortable around the kitchen.
+        </p>
+      </div>
+        <img src='../../img/#' class='m-3 mb-5 img-responsive'>
+    </div>
+
+    <!-- content -->
+    <div class='case-study d-flex flex-column justify-self-center align-self-center m5 pb-5'>
+
+
+
+      <!-- understanding the problem -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Understanding Dietary Restrictions</h3>
+        <p class='mt-3'>
+          After interviewing some people with strict diets about their
+          experiences with finding recipes and cooking in the kitchen,
+          we isolated some major pain points:
+            <ul class='pl-md-5 pl-sm-3'>
+              <li>Some found it embarrassing or inconvenient to have a
+                strict diet— it would restrict them from eating out with
+                friends or letting others know about their diets</li>
+              <li>It’s risky to eat outside because there is a risk of
+                cross-contamination in other kitchens</li>
+              <li>Checking ingredient labels for every packaged food item
+                becomes annoying</li>
+              <li>It was difficult to find a variety of food options when
+                they first adopted the diet.</li>
+              <li>Finding diverse recipes that catered to specific
+                diets was difficult, but there are lots of replacement
+                options available. </li>
+            </ul>
+        </p>
+      </div>
+
+      <!-- the problem -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>The Problem</h3>
+        <p class='mt-3'>
+          Individuals with dietary restrictions do not eat and cook with the
+          same level of ease and comfort as those without dietary restrictions.
+        </p>
+      </div>
+
+      <!-- Ideating-->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Ideating</h3>
+          <p class='mt-3'>
+            We came up with two ideas to allow those with dietary
+            restrictions to eat and cook more comfortably.
+          </p>
+          <p class='mt-3'><span>(1) Shared Pantry</span></p>
+          <p>
+            Users would be able to request and obtain different ingredients
+            from other users in the same area. Not only would users be able
+            to obtain specific ingredients that they might lack in the
+            kitchen, they would also be able to meet new friends with
+            similar diets, share cooking insights, and gain a diet-friendly
+            community.
+          </p>
+          <p class='mt-3'><span>(2) Recipe Conversions:</span></p>
+          <p>
+            Users would be able to find recipes without worrying about dietary
+            constraints. The app would convert certain ingredients to their
+            respective replacement options for each diet.
+          </p>
+      </div>
+
+      <!-- the solution -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>The Solution</h3>
+        <p class='mt-3'>
+          We decided to stick with the Recipe Conversion idea, since the Shared
+          Pantry idea relies too heavily on users to be proactive in sharing
+          ingredients. As we thought more about a shared pantry, the vision
+          was too optimistic to carry out. Not many people would willingly
+          offer up their eggs for someone else.
+        </p>
+        <p>
+          With the recipe conversion idea in mind, we created Noms.
+          Noms is a cooking app that provides home cooks with the ability
+          to swap ingredients within recipes to create a new recipe catered
+          to their specific diets. Like a traditional cooking app, the app
+          allows cooks to discover different recipes and learn through the
+          specific instructions, but through a convenient click of a button,
+          those cooking with dietary restrictions can now also enjoy the same
+          recipes with alternate ingredients.
+        </p>
+      </div>
+
+      <!-- user testing -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>User Testing</h3>
+          <p class='mt-3'>
+            To ensure that our designs were usable, we conducted user tests to
+            understand how users interact with our app. We asked our users to
+            complete a series of tasks that reflected the functionalities in
+            our app:
+          </p>
+          <li class='mt-1'>
+            Look at a recipe and add it to your favorites
+          </li>
+          <li class='mt-1'>
+            Change your dietary restriction to Vegan
+          </li>
+          <li class='mt-1'>
+            Look for a vegan brownie recipe and walk through the steps until you finish
+          </li>
+          <li class='mt-1'>
+            Locate all the recipes you’ve completed before
+          </li>
+          <li class='mt-1'>
+            Look at your favorited recipe and find a lactose free version of it
+          </li>
+          <p>
+            We tested three home cooks of different skill levels who cook for
+            a specific diet. The first user has a tree nut allergy, the second
+            user cooks for someone who has lactose intolerance, and the third
+            user is trying to eat healthier to bulk up.
+          </p>
+          <p>
+            We obtained some good feedback— all three of our users thought
+            that Noms is an interesting idea that allowed people of different
+            diets to have a centralized location for recipes.
+          </p>
+      </div>
+
+      <!-- redesign -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Redesign</h3>
+          <p class='mt-3'>
+            We found three big usability errors from our user testing:
+          </p>
+          <p class='mt-3'><span>(1) Favorites Icon</span></p>
+          <p>
+            All three users found that the favorites button, or the star icon,
+            was confusing. We speculate that it was because the signifier of
+            the star itself wasn’t obvious enough that it was for marking a
+            recipe as a favorite. There also wasn’t enough feedback provided
+            when the star icon was clicked to communicate to the user that the
+            recipe has been added to the list. 
+          </p>
+          <p>
+            We decided to change the star icon to a heart icon to reflect the
+            idea of “favorite recipes” better. Most people correlate “favorite”
+            to having positive and strong feelings for something, and this is
+            typically represented through a heart shape. We also added more
+            feedback after adding the recipe into their favorite recipes with
+            a pop-up modal that notifies the user.
+          </p>
+          <p class='mt-3'><span>(2) Marking a Recipe as Complete</span></p>
+          <p>
+            Two out of three users didn’t complete the actual recipe by
+            going through each and every step. We originally placed the
+            “complete recipe” button at the very end of the tutorial
+            (after clicking through all the steps), but the experienced
+            cooks never reached that phase and could never mark a recipe as
+            completed.
+          </p>
+          <p>
+            We speculate that this issue was because home cooks of
+            different skill levels need different levels of guidance
+            in terms of recipes. Those with more experience can complete
+            a recipe with no extra help, but for inexperienced cooks, visual
+            aids through each step would make the process a lot smoother.
+            To solve this issue, we added a “complete recipe” button on the
+            recipe overview page so that home cooks can mark a recipe as
+            complete without walking through individual steps.
+          </p>
+          <p class='mt-3'><span>(3) Finding a Recipe</span></p>
+          <p>
+            All of the users scrolled for a while to see all the
+            recipes before choosing a recipe on the home page. We speculate
+            that this is because each recipe takes up a lot of space, and
+            users would like to see most, if not all of their options before
+            making a choice. 
+          </p>
+          <p>
+            To fix this issue, we changed the layout of our home page to
+            declutter it. We simplified the recipe cards, giving just
+            enough information for users to want to click into it. After
+            clicking into each card, then we displayed more information
+            about the recipe.
+          </p>
+      </div>
+
+      <!-- a/b testing-->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>A/B Testing</h3>
+          <p class='mt-3'>
+            Some users complained about the amount of scrolling, so we came up
+            with a grid design for the recipes on the home page. However,
+            we weren’t too confident in the redesign— How do we want users
+            to search for specific recipes? We wanted to compare the two
+            versions of the home page:
+          </p>
+          <p class='mt-3'><span>Version 1</span></p>
+          <p>
+            Search with a search bar where users can type anything, with
+            three preset buttons to show recipes that match with their diet,
+            their favorite recipes and their completed recipes. Recipes are
+            listed in a column with bigger cards, where users scroll down
+            to see around 2 recipes on the screen at once.
+          </p>
+          <p class='mt-3'><span>Version 2</span></p>
+          <p>
+            Search with a filter, choosing between different diets, favorite
+            recipes, and/or completed recipes. Recipes are displayed in a
+            grid, where many more recipes are shown at once.
+          </p>
+          <p class='mt-3'>
+            From our chi-square test and informal feedback, we learned:
+          </p>
+          <li class='mt-1'>
+            Users prefer the grid layout in version 2 since it requires less
+            scrolling and gave users more control over what they saw
+          </li>
+          <li class='mt-1'>
+            Users spent less time to complete the task in version 2
+          </li>
+          <li class='mt-1'>
+            On average, users clicked more pages in version 1, likely because
+            they clicked the wrong recipes
+          </li>
+          <li class='mt-1'>
+            The search bar in version 1 was not comprehensive enough. Users
+            typed “vegan brownie” and it came up with no results
+          </li>
+          <li class='mt-1'>
+            Users preferred having a search bar to search for specific
+            ingredients or recipes faster
+          </li>
+      </div>
+
+      <!-- final prototype -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Final Prototype</h3>
+          <p class='mt-3'>
+            Through our tests and informal feedback, we decided to combine the
+            two options. We would incorporate a search bar and a filter option
+            while displaying the recipes in a grid format. We hope that this
+            version would reduce the chance of error of clicking into a wrong
+            recipe, while ensuring that users can find recipes more efficiently.
+          </p>
+          <p class='mt-3'>
+            At the poster session, our team received an award for Best
+            Problem Statement. We also received valuable feedback from
+            design professionals about our project.
+          </p>
+      </div>
+
+      <!-- future plans -->
+      <div class='section d-flex flex-column my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Future Plans</h3>
+          <p class='mt-3'>
+            Future plans involve conducting more tests on a different user
+            base. It was brought to our attention that some older users who
+            struggle with diabetes might prefer to see nutritional information
+            or prefer a bigger card layout. Conducting additional tests on
+            senior users or people with different dietary restrictions would
+            allow us to make Noms more friendly for its appropriate user group.
+          </p>
+      </div>
+
+    </div>
+
+
+    <!-- button -->
+    <div class='button d-flex position-relative justify-content-center pb-3 mb-5' data-aos="fade-up" data-aos-duration="1000">
+      <a class='square-button px-4 py-2' href='../../index.html'>BACK TO HOME</a>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
+      <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
+        <h6 class='mt-5 mb-2'>The iterative nature of design has taught me that there’s never a finished product— only a work in progress.</h6>
+        <h6 class='mb-3'>Let me know how I can improve on my work.</h6>
+        <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
+        <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
+          <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='www.linkedin.com/in/kylee-peng'>LinkedIn</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
+        </div>
+        <h6 class='mb-5 my-3'>Designed & developed by Kylee Peng</h6>
+      </div>
+    </footer>
+
+  </body>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../../js/script.js"></script>
+
+</html>

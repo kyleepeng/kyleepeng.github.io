@@ -1,20 +1,22 @@
 asap:
-- dfa medical
-- one bus away
+- project: noms
+- project: one bus away
+- project page
+
+projects:
 - snapchat
-- horizon
-- noms
 - xposure
+- amtrak
 - d4sd
 - dfa mental
-
+- horizon
 
 soon:
 - home title js
   - https://tobiasahlin.com/moving-letters/#12
-- parallax
-- illustrations
+  - https://stackoverflow.com/questions/7173691/replacing-div-content-with-javascript
 
 stretch:
 - transition between pages
+- illustrations
 - animation when logo hovered

@@ -121,14 +121,6 @@ li {
 /* ----------banner---------- */
 .project-banner{
   width: 100vw;
-  background-color: rgb(235, 242, 255);
-}
-
-/* ----------project---------- */
-.project{
-  max-width: 100vw;
-  height: 60vh;
-  background-color: rgb(235, 242, 255);
 }
 
 /* ----------case study---------- */

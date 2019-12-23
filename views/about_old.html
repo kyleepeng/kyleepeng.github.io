@@ -12,50 +12,58 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/main_new.css">
-    <link rel="stylesheet" href="../css/media_queries_new.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/media_queries.css">
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand fixed-top d-flex align-items-center">
+    <nav class="navbar navbar-expand-md fixed-top d-flex align-items-center">
       <a class="navbar-brand mr-auto" href='../index.html'>
         <img src="../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
       </a>
-      <div class="navbar-nav text-right">
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="dropdown">
+        <div class="navbar-nav text-right">
           <a class="nav-item nav-link m-2" href="../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="projects.html">Projects</a>
           <a class="nav-item nav-link m-2 active" href="about.html">About<span class="sr-only">(current)</span></a>
+        </div>
       </div>
     </nav>
 
     <!-- title -->
-    <div class="title container d-flex vh-75 mt-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
-      <div class="title-text col col-xl-7 pt-5">
+    <div class="title d-flex vh-75 mt-4 mb-5 align-self-center justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text align-self-center justify-content-center pt-5">
         <h1>掌聲有請</h1>
         <h2>Sup!</h2>
         <p class='title-paragraph mb-3'>
-          I’m Kylee, a UI/UX designer studying HCI and Data Science
-          at UC San Diego.
+          I’m a Taiwan born, Shanghai raised, San Diego based
+          <span id='bold'>UI/UX designer</span>,
+          currently studying
+          <span id='bold'>HCI and Data Science</span> at UC San Diego. I hope to create
+          data-driven approaches to craft a better experience.
         </p>
         <p class='title-paragraph mb-3'>
-          I enjoy learning new things that can make my day simpler and more
-          efficient, and I hope to contribute to the simpler, faster, and
-          better future that is ahead.
+          I believe that my projects and my knowledge in the design field is a constant
+          work in progress— there’s always more room for learning and improvement.
         </p>
         <p class='title-paragraph mb-3'>
-          When I’m not designing, you'll catch me exploring new countries,
-          eating Ben & Jerry's cherry garcia, and watching BonAppetit.
+          When I’m not working on a project, I find excitement in travelling,
+          watching anime, obsessing over cute babies and dogs, and taking naps.
         </p>
       </div>
-      <img src='../img/about_picture.svg' class='col col-lg-4 col-xl-4 p-3 p-lg-5 mt-lg-5 img-responsive'>
+      <img src='../img/about_picture.svg' class='px-5 pb-5 mr-5 img-responsive'>
     </div>
 
 
     <!-- footer -->
     <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
       <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
-        <h6 class='mt-5 mb-1'>I like that final prototypes are still just a prototype-- there's always more room for learning and improvement.</h6>
-        <h6 class='mb-3'>Let me know how I can improve.</h6>
+        <h6 class='mt-5 mb-1'>The iterative nature of design has taught me that there’s never a finished product— only a work in progress.</h6>
+        <h6 class='mb-3'>Let me know how I can improve on my work.</h6>
         <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
         <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
           <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
@@ -64,7 +72,7 @@
           <span class="dot"></span>
           <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
         </div>
-        <h6 class='mb-5 my-3'>This website is powered by many naps.</h6>
+        <h6 class='mb-5 my-3'>Designed & developed by Kylee Peng</h6>
       </div>
     </footer>
 

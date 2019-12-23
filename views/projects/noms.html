@@ -12,43 +12,39 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/projects.css">
-    <link rel="stylesheet" href="../../css/media_queries.css">
+    <link rel="stylesheet" href="../../css/main_new.css">
+    <link rel="stylesheet" href="../../css/media_queries_new.css">
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top d-flex align-items-center">
+    <nav class="navbar navbar-expand fixed-top d-flex align-items-center">
       <a class="navbar-brand mr-auto" href='../../index.html'>
         <img src="../../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
       </a>
-      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="dropdown">
-        <div class="navbar-nav text-right">
-          <a class="nav-item nav-link m-2" href="../../index.html">Home</a>
-          <a class="nav-item nav-link m-2 active" href="../projects.html">Projects<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link m-2" href="../about.html">About</a>
-        </div>
+      <div class="navbar-nav text-right">
+          <a class="nav-item nav-link m-2 active" href="../../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="../about.html">About<span class="sr-only">(current)</span></a>
       </div>
     </nav>
 
+
     <!-- title -->
-    <div class="title vh-75 my-5 align-self-center" data-aos="fade-up" data-aos-duration="1000">
-      <div class="title-text align-self-center justify-content-center pt-5">
+    <div class="proj-title container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text my-5 pt-5">
         <h1> </h1>
         <h2>Noms</h2>
-        <h3>Easy Cooking for Specific Diets</h3>
+        <h4><span id='highlight' class='pt-3'>Easy Cooking for Specific Diets</span></h4>
     </div>
     </div>
 
     <!-- background -->
-    <div class="case-study project-banner d-flex"
-    style="background-color: #F0F9FF;"
-    data-aos="fade-up" data-aos-duration="1000">
-      <div class='section d-flex flex-column my-5 py-2'>
-        <h3>Background & Contributions</h3>
+    <div class="container background project-banner d-flex"
+     style="background-color: #F0F9FF; box-shadow: 10px 10px #C0E6FF;"
+     data-aos="fade-up"
+     data-aos-duration="1000">
+      <div class='d-flex flex-column col-7 my-5 py-2'>
+        <h3>Background</h3>
         <p class='mt-3'>
           Noms is an app that was created in an interaction design course
           within 10 weeks. I worked with two talented group members who taught
@@ -57,14 +53,14 @@
           prototyping, user testing, and some front-end development.
         </p>
       </div>
-        <img src='../../img/noms/noms_mockup.png' class='m-3 img-responsive'>
+        <img src='../../img/noms/noms_mockup.png' class='col-5 m-3 mt-2 img-responsive'>
     </div>
 
     <!-- content -->
-    <div class='case-study d-flex flex-column align-items-center'>
+    <div class='container d-flex flex-column align-items-center'>
 
       <!-- understanding the problem -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Understanding Dietary Restrictions</h3>
         <p class='mt-3'>
           After interviewing some people with strict diets about their
@@ -88,7 +84,7 @@
       </div>
 
       <!-- the problem -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>The Problem</h3>
         <p class='mt-3'>
           Individuals with dietary restrictions do not eat and cook with the
@@ -97,7 +93,7 @@
       </div>
 
       <!-- Ideating-->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Ideating</h3>
           <p class='mt-3'>
             We came up with two ideas to allow those with dietary
@@ -121,7 +117,7 @@
       </div>
 
       <!-- first iteration -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>First Iteration</h3>
         <p class='mt-3'>
           We decided to stick with the Recipe Conversion idea, since the Shared
@@ -144,7 +140,7 @@
       </div>
 
       <!-- user testing -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>User Testing</h3>
           <p class='mt-3'>
             To ensure that our designs were usable, we conducted user tests to
@@ -180,7 +176,7 @@
       </div>
 
       <!-- redesign -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Redesign</h3>
           <p class='mt-3'>
             We found three big usability errors from our user testing:
@@ -236,7 +232,7 @@
       </div>
 
       <!-- a/b testing-->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>A/B Testing</h3>
           <p class='mt-3'>
             Some users complained about the amount of scrolling, so we came up
@@ -281,7 +277,7 @@
       </div>
 
       <!-- final prototype -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Final Prototype</h3>
           <p class='mt-3'>
             Through our tests and informal feedback, we decided to <span>combine the
@@ -302,7 +298,7 @@
       </div>
 
       <!-- future plans -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Future Plans</h3>
           <p class='mt-3'>
             Future plans involve conducting <span>more tests on a different user
@@ -319,16 +315,15 @@
 
     <!-- button -->
     <div class='button d-flex position-relative justify-content-center pb-3 mb-5' data-aos="fade-up" data-aos-duration="1000">
-      <a class='square-button px-4 py-2' href='../projects.html'>SEE ALL PROJECTS</a>
+      <a class='square-button px-4 py-2' href='../../index.html'><h5>SEE MORE</h5></a>
     </div>
-
 
 
     <!-- footer -->
     <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
       <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
-        <h6 class='mt-5 mb-2'>The iterative nature of design has taught me that there’s never a finished product— only a work in progress.</h6>
-        <h6 class='mb-3'>Let me know how I can improve on my work.</h6>
+        <h6 class='mt-5 mb-1'>I like that final prototypes are still just a prototype-- there's always more room for learning and improvement.</h6>
+        <h6 class='mb-3'>Let me know how I can improve.</h6>
         <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
         <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
           <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
@@ -337,7 +332,7 @@
           <span class="dot"></span>
           <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
         </div>
-        <h6 class='mb-5 my-3'>Designed & developed by Kylee Peng</h6>
+        <h6 class='mb-5 my-3'>This website is powered by many naps.</h6>
       </div>
     </footer>
 

@@ -12,43 +12,37 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/projects.css">
-    <link rel="stylesheet" href="../../css/media_queries.css">
+    <link rel="stylesheet" href="../../css/main_new.css">
+    <link rel="stylesheet" href="../../css/media_queries_new.css">
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top d-flex align-items-center">
+    <nav class="navbar navbar-expand fixed-top d-flex align-items-center">
       <a class="navbar-brand mr-auto" href='../../index.html'>
         <img src="../../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
       </a>
-      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#dropdown" aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="dropdown">
-        <div class="navbar-nav text-right">
-          <a class="nav-item nav-link m-2" href="../../index.html">Home</a>
-          <a class="nav-item nav-link m-2 active" href="../projects.html">Projects<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link m-2" href="../about.html">About</a>
-        </div>
+      <div class="navbar-nav text-right">
+          <a class="nav-item nav-link m-2 active" href="../../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="../about.html">About<span class="sr-only">(current)</span></a>
       </div>
     </nav>
 
     <!-- title -->
-    <div class="title vh-75 my-5 align-self-center" data-aos="fade-up" data-aos-duration="1000">
-      <div class="title-text align-self-center justify-content-center pt-5">
+    <div class="proj-title container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text my-5 pt-5">
         <h1> </h1>
         <h2>Medical Accessibility in Tijuana</h2>
-        <h3>Improving Healthcare through Design</h3>
+        <h4><span id='highlight' class='pt-3'>Improving Healthcare through Design</span></h4>
     </div>
     </div>
 
     <!-- background -->
-    <div class="case-study project-banner d-flex"
-     style="background-color: #ecf3ff;"
+    <div class="container background project-banner d-flex"
+     style="background-color: #F2F3FF; box-shadow: 10px 10px #C0C2FF;"
      data-aos="fade-up"
      data-aos-duration="1000">
-      <div class='section d-flex flex-column my-5 py-2'>
+      <div class='d-flex flex-column col-7 my-5 py-2'>
         <h3>Background</h3>
         <p class='mt-3'>
           International Health Collective (IHC) is a student-run organization
@@ -59,14 +53,14 @@
           in areas such as Tijuana where medical help is scarce.
         </p>
       </div>
-        <img src='../../img/proj_dfamedical.png' class='m-3 mb-5 img-responsive'>
+        <img src='../../img/proj_dfamedical.png' class='col-5 m-3 img-responsive'>
     </div>
 
     <!-- content -->
-    <div class='case-study d-flex flex-column align-items-center'>
+    <div class='container d-flex flex-column align-items-center'>
 
       <!-- problem -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>The Problem</h3>
         <p class='mt-3'>
           Currently, the clinic writes everything down by <span>paper and pen</span>
@@ -75,15 +69,15 @@
           clinic’s goal is to provide as many medical services as possible,
           then we need to have a more effective system.
         </p>
-        <div class='images d-flex flex-row justify-content-center'>
-          <img src='../../img/dfa_med/dfa_med_clinic.png' class='mx-2 mt-4'>
-          <img src='../../img/dfa_med/dfa_med_clinic2.png' class='mx-2 mt-4'>
-          <img src='../../img/dfa_med/dfa_med_clinic3.png' class='mx-2 mt-4'>
+        <div class='images-grid row justify-self-center'>
+          <img src='../../img/dfa_med/dfa_med_clinic.png' class='col-4 mt-4'>
+          <img src='../../img/dfa_med/dfa_med_clinic2.png' class='col-4 mt-4'>
+          <img src='../../img/dfa_med/dfa_med_clinic3.png' class='col-4 mt-4'>
         </div>
       </div>
 
       <!-- our role -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>My Team's Role</h3>
         <p class='mt-3'>
           Our role was to enhance the overall flow of the clinic to help empower
@@ -111,7 +105,7 @@
       </div>
 
       <!-- interviews -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Interviews</h3>
           <p class='mt-3'><span>Approach:</span></p>
           <p>
@@ -127,7 +121,7 @@
           <p class='mt-3'>
             Here were the people we interviewed:
           </p>
-          <img src='../../img/dfa_med/dfa_med_interviews.png' class='w-75 mx-3 mt-3'>
+          <img src='../../img/dfa_med/dfa_med_interviews.png' class='col-8 align-self-center mx-3 mt-3'>
           <p class='mt-3'><span>Insights:</span></p>
           <p>
             <li class='mt-1'>
@@ -157,7 +151,7 @@
       </div>
 
       <!-- how can we -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>How Can We..?</h3>
         <p class='mt-3'>
           To solve these problems, my team and I started the design process by
@@ -177,7 +171,7 @@
       </div>
 
       <!-- goals -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Goals</h3>
           <p class='mt-3'>
             My team focused on creating a way for volunteers and medical
@@ -199,12 +193,12 @@
           <li class='mt-1'>
             <span>reducing complexity</span> in the overall clinical process
           </li>
-          <img src='../../img/dfa_med/dfa_med_dsgn_sprint.png' class='sprint w-75 mx-3 mt-5 align-self-center'>
+          <img src='../../img/dfa_med/dfa_med_dsgn_sprint.png' class='col-md-8 col-sm-12 mx-3 mt-5 align-self-center'>
 
       </div>
 
       <!-- my wireframes -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>My Wireframes</h3>
           <p class='mt-3'>
             This was my wireframe of the patient profile page with an improved
@@ -218,16 +212,16 @@
             forms, as well as fast retrieval of previous records.
           </p>
           <div class='images-grid row justify-content-center'>
-            <img src='../../img/dfa_med/wireframe1.png' class='mx-2 mt-5'>
-            <img src='../../img/dfa_med/wireframe2.png' class='mx-2 mt-5'>
-            <img src='../../img/dfa_med/wireframe3.png' class='mx-2 mt-5 '>
-            <img src='../../img/dfa_med/wireframe4.png' class='mx-2 mt-5'>
-            <img src='../../img/dfa_med/wireframe5.png' class='mx-2 mt-5'>
+            <img src='../../img/dfa_med/wireframe1.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/wireframe2.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/wireframe3.png' class='col-md-6 col-sm-12 mt-5 '>
+            <img src='../../img/dfa_med/wireframe4.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/wireframe5.png' class='col-md-6 col-sm-12 mt-5'>
           </div>
       </div>
 
       <!-- prototype-->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-md-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Our Prototype</h3>
           <p class='mt-3'>
             After consolidating all the ideas from each member's wireframes,
@@ -263,17 +257,17 @@
             edits to our design, and began coding the application.
           </p>
           <div class='images-grid row justify-content-center'>
-            <img src='../../img/dfa_med/prototype1.png' class='mx-1 mt-5'>
-            <img src='../../img/dfa_med/prototype2.png' class='mx-1 mt-5'>
-            <img src='../../img/dfa_med/prototype3.png' class='mx-1 mt-5 '>
-            <img src='../../img/dfa_med/prototype4.png' class='mx-1 mt-5'>
-            <img src='../../img/dfa_med/prototype5.png' class='mx-1 mt-5'>
-            <img src='../../img/dfa_med/prototype6.png' class='mx-1 mt-5 '>
+            <img src='../../img/dfa_med/prototype1.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/prototype2.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/prototype3.png' class='col-md-6 col-sm-12 mt-5 '>
+            <img src='../../img/dfa_med/prototype4.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/prototype5.png' class='col-md-6 col-sm-12 mt-5'>
+            <img src='../../img/dfa_med/prototype6.png' class='col-md-6 col-sm-12 mt-5 '>
           </div>
       </div>
 
       <!-- learnings -->
-      <div class='section d-flex flex-column my-5 py-2 col-lg-10 col-md-10 col-sm-12' data-aos="fade-up" data-aos-duration="1000">
+      <div class='section col-lg-10 col-md-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
         <h3>Future Plans</h3>
           <p class='mt-3'>
             Future plans include <span>continuous testing</span> in the field and analyzing
@@ -291,7 +285,7 @@
 
     <!-- button -->
     <div class='button d-flex position-relative justify-content-center pb-3 mb-5' data-aos="fade-up" data-aos-duration="1000">
-      <a class='square-button px-4 py-2' href='../projects.html'>SEE ALL PROJECTS</a>
+      <a class='square-button px-4 py-2' href='../../index.html'><h5>SEE MORE</h5></a>
     </div>
 
 
@@ -299,8 +293,8 @@
     <!-- footer -->
     <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
       <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
-        <h6 class='mt-5 mb-2'>The iterative nature of design has taught me that there’s never a finished product— only a work in progress.</h6>
-        <h6 class='mb-3'>Let me know how I can improve on my work.</h6>
+        <h6 class='mt-5 mb-1'>I like that final prototypes are still just a prototype-- there's always more room for learning and improvement.</h6>
+        <h6 class='mb-3'>Let me know how I can improve.</h6>
         <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
         <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
           <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
@@ -309,7 +303,7 @@
           <span class="dot"></span>
           <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
         </div>
-        <h6 class='mb-5 my-3'>Designed & developed by Kylee Peng</h6>
+        <h6 class='mb-5 my-3'>This website is powered by many naps.</h6>
       </div>
     </footer>
 

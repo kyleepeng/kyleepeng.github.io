@@ -2,20 +2,28 @@
 /*  Extra small devices (less than 576 px)*/
 @media (min-width: 0px) {
   h1{
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 4vw;
   }
   h2{
-    font-size: 30px;
+    font-size: 22px;
     top: -15px;
   }
+  .proj-title h2{
+    top:0px;
+    padding-bottom: 10px;
+  }
   h3{
-    font-size: 20px;
+    font-size: 18px;
   }
   h3 span{
     font-size: 15px;
   }
   h4{
+    font-size: 15px;
+    top: 25px;
+  }
+  .section h4{
     font-size: 14px;
   }
   h5{
@@ -32,6 +40,9 @@
   a{
     font-size: 16px;
   }
+  a h5{
+    font-size: 14px;
+  }
   footer a{
     font-size: 12px;
     line-height: 1.5;
@@ -39,38 +50,39 @@
   .title{
     flex-direction: column;
   }
-  .title-text, .case-study{
-    padding-left: 5vw;
-    padding-right: 3vw;
+  .project-grid{
+    height: 60vh;
   }
-  .project-banner{
-    flex-direction: column;
-  }
-  .project-banner img{
-    width: 80%;
-  }
-  .images-grid img{
-    width: 90%;
-  }
+
+  /* .images-grid img{
+    height: 60vh;
+  } */
 }
 
 /* xs-s */
 @media (min-width: 510px) {
   h1{
-    font-size: 60px;
+    font-size: 55px;
   }
   h2{
-    font-size: 34px;
+    font-size: 28px;
     top: -20px;
   }
+  /* .proj-title h2{
+    top:0px;
+  } */
   h3{
-    font-size: 26px;
+    font-size: 22px;
   }
   h3 span{
     font-size: 20px;
   }
   h4{
-    font-size: 16px;
+    font-size: 18px;
+    top: 25px;
+  }
+  .section h4{
+    font-size: 15px;
   }
   h5{
     font-size: 15px;
@@ -81,11 +93,15 @@
 /*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   h1{
-    font-size: 75px;
+    font-size: 65px;
   }
   h2{
-    font-size: 40px;
+    font-size: 32px;
     top: -25px;
+  }
+  .proj-title h2{
+    top:0px;
+    padding-bottom: 10px;
   }
   h6{
     font-size: 13px;
@@ -99,33 +115,44 @@
     font-size: 13px;
     line-height: 1.5;
   }
+  .project-grid{
+    height: 65vh;
+  }
   .images-grid img{
     width: 40%;
   }
+
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1{
-    font-size: 80px;
+    font-size: 70px;
   }
   h2{
-    font-size: 44px;
+    font-size: 36px;
   }
   h3{
-    font-size:30px;
+    font-size:28px;
   }
   h3 span{
     font-size: 22px;
   }
   h4{
-    font-size: 17px;
+    font-size: 22px;
+    top: 25px;
+  }
+  .section h4{
+    font-size: 18px;
   }
   .title{
-    flex-direction: row;
+    flex-direction: column;
     padding-bottom: 5;
   }
-  .title img{
+  .project-grid{
+    height: 65vh;
+  }
+  /* .title img{
     width: 40%;
     padding-top: 5em;
   }
@@ -134,16 +161,16 @@
   }
   .project-banner img{
     width: 40%;
-  }
+  } */
 }
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h1{
-    font-size: 80px;
+    font-size: 70px;
   }
   h2{
-    font-size: 48px;
+    font-size: 40px;
   }
   h5{
     font-size: 14px;
@@ -151,29 +178,33 @@
   a{
     font-size: 18px;
   }
-  .title-text, .case-study{
+  /* .title-text, .case-study{
     padding-left: 7vw;
     padding-right: 8vw;
-  }
+  } */
   .title{
+    flex-direction: row;
     padding-bottom: 5;
   }
-  .title img{
+  .project-grid{
+    height: 70vh;
+  }
+  /* .title img{
     width: 30%;
     padding-top: 5em;
   }
   .images-grid img{
     width: 30%;
-  }
+  } */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   h1{
-    font-size: 90px;
+    font-size: 80px;
   }
   h2{
-    font-size: 60px;
+    font-size: 44px;
   }
   a{
     font-size: 16px;

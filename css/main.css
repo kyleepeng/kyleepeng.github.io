@@ -3,8 +3,8 @@
 h1{
   font-family: 'Noto Serif SC', serif;
   position: relative;
-  margin-top: 10vh;
-  color: #9BB4EB;
+  margin-top: 8vh;
+  color: #A7AEFF;
   opacity: 0.2;
 }
 
@@ -15,22 +15,24 @@ h2{
   position: relative;
 }
 
+/* project card title */
 h3{
   font-family: 'Crimson Text', serif;
   color: #253C70;
-  font-weight: bold;
+  font-weight: 300;
 }
 
+/* project page section titles */
 h4{
-  font-family: 'Crimson Text', serif;
-  color: #253C70;
+  font-family: 'Lato', serif;
+  color: #9BB4EB;
   font-weight: lighter;
-  font-style: italic;
 }
 
 /* smaller text */
 h5{
   font-family: 'Crimson Text', serif;
+  font-style: italic;
   color: #253C70;
 }
 
@@ -38,7 +40,7 @@ h5{
 p{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  color: #333333;
+  color: #555555;
 }
 
 /* footer */
@@ -52,12 +54,37 @@ a{
   font-family: 'Crimson Text', serif;
 }
 
+a h5{
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  color: #253C70;
+}
+
+p a{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
 #highlight{
-  color: #9BB4EB;
+  color: #A7AEFF;
 }
 
 #bold{
   font-weight: bold;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
+li li{
+  margin-left:15px;
+  list-style-type: circle;
 }
 
 /* ----------navbar----------- */
@@ -66,14 +93,6 @@ a{
   backdrop-filter: blur(4px);
   font-size: 20px;
   max-height: 50px;
-}
-
-.custom-toggler.navbar-toggler {
-    border-color: #FFFFFF;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(37,60,112)' stroke-width='4' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .logo{
@@ -96,24 +115,20 @@ a{
 }
 
 /* ----------title---------- */
-.title-text{
-  margin-bottom:10vh;
-}
-
 .lato{
   font-family: 'Lato';
 }
 
 /* ----------arrow---------- */
 .arrow{
-  padding: 10vh;
+  padding-top: 5vh;
 }
 .arrow img{
-  max-height: 6vh;
+  max-height: 5vh;
 }
 
 .arrow-404{
-  padding: 8vh;
+  padding: 5vh;
   text-decoration: none;
 }
 
@@ -123,25 +138,55 @@ a{
 }
 
 /* ----------project---------- */
-.project{
-  max-width: 100vw;
-  height: 60vh;
-}
-
-
-.project-grid{
-  height: 65vh;
-  margin-bottom: 10vh;
+.projects{
+  margin-bottom: 5vh;
 }
 
 .project-grid .project-title{
   height: 100%;
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.project-title p{
+  font-weight: 300;
+}
+
+
+/* for each project */
+.noms{
+  box-shadow: 10px 10px #C0E6FF;
+  background-image: url('../img/noms/noms_mockup2.png');
+  transition: all .2s ease-in-out;
+  transform: scale(0.98, 0.98);
+}
+
+.noms:hover {
+  transform: scale(1, 1);
+}
+
+.dfa_med{
+  box-shadow: 10px 10px #C0C2FF;
+  background-image: url('../img/dfa_med/dfa_med_mockup.png');
+  transition: all .2s ease-in-out;
+  transform: scale(0.98, 0.98);
+}
+
+.dfa_med:hover{
+  transform: scale(1, 1);
+}
+
+.illustrations{
+  box-shadow: 10px 10px #dfd8ff;
+  background-image: url('../img/illustrations/illustration.png');
+  transition: all .2s ease-in-out;
+  transform: scale(0.98, 0.98);
+}
+
+.illustrations:hover{
+  transform: scale(1, 1);
+}
 
 .project:hover{
   text-decoration: none;
@@ -161,7 +206,7 @@ a{
   text-decoration: none;
 }
 
-.button a:hover{
+.button a:hover > h5{
   color:#9BB4EB;
   text-decoration: none;
 }

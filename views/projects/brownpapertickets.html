@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Brown Paper Tickets — Kylee Peng</title>
+    <!-- CSS -->
+    <link rel="icon" href="../../img/logo_dark.png" type="png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/media_queries.css">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand fixed-top d-flex align-items-center">
+      <a class="navbar-brand mr-auto" href='../../index.html'>
+        <img src="../../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
+      </a>
+      <div class="navbar-nav text-right">
+          <a class="nav-item nav-link m-2 active" href="../../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="../about.html">About<span class="sr-only">(current)</span></a>
+      </div>
+    </nav>
+
+
+    <!-- title -->
+    <div class="proj-title container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text my-5 pt-5">
+        <h1> </h1>
+        <h2>Brown Paper Tickets</h2>
+        <h4><span id='highlight' class='pt-3'>Convenient & Fast Event Searching</span></h4>
+    </div>
+    </div>
+
+    <!-- background -->
+    <div class="container background project-banner"
+     style="background-color: #F0F9FF; box-shadow: 10px 10px #C0E6FF;"
+     data-aos="fade-up"
+     data-aos-duration="1000">
+     <div class='row'>
+      <div class='d-flex flex-column col-md-7 col-sm-11 my-5 py-2'>
+        <h3>Background</h3>
+        <p class='mt-3'>
+          La Jolla Playhouse at UCSD uses Brown Paper Tickets to sell its
+          event tickets. My teammates and I felt that the website was
+          difficult to use, so we decided to redesign its mobile flow.
+          My role as a UI/UX designer in the project consisted of
+          interviewing, user testing, wireframing, and prototyping.
+        </p>
+      </div>
+        <img src='../../img/noms/noms_mockup.png' class='col-md-5 col-sm-11 mt-2 img-responsive'>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class='container d-flex flex-column align-items-center'>
+
+      <!-- understanding the problem -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Understanding Brown Paper Tickets</h3>
+        <h4 class='pt-2'>Examining the current design</h4>
+        <p class='mt-3'>
+          We interviewed a few UCSD students about their experiences with
+          purchasing event tickets and asked them to try out Brown Paper Tickets.
+          We compiled the top three usability errors that
+          our users had when performing simple tasks.
+        </p>
+
+        <h4 class='pt-2'>Filters were difficult to use</h4>
+        <p class='mt-1'>
+          Users had trouble filtering through specific dates, locations,
+          prices, and event categories.
+        </p>
+
+
+        <h4 class='pt-2'>Shopping cart is hard to identify</h4>
+        <p class='mt-1'>
+          Users couldn't navigate to their shopping cart to find tickets.
+        </p>
+
+
+        <h4 class='pt-2'>Filters weren't functional</h4>
+        <p class='mt-1'>
+          The filters would reset, making users scroll through
+            every listed event to find the correct one.
+        </p>
+
+      </div>
+
+      <!-- Usability Issues -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>The Main Issue</h3>
+        <h4 class='pt-2'>What to redesign</h4>
+        <p class='mt-3'>
+          We decided to redesign the search bar and filter options.
+          All of our users struggled with searching and filtering to
+          find specific events.
+        </p>
+      </div>
+
+      <!-- Competitive Analysis-->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Competitive Analysis</h3>
+          <p class='mt-3'>
+            Before we dove into designing, we wanted to see how other event
+            apps tacked their search and filtering.
+          </p>
+          <p class='mt-3'>Ticketmaster</p>
+
+          <p class='mt-3'>Eventbrite</p>
+
+          <p class='mt-3'>Stubhub</p>
+
+      </div>
+
+      <!-- ideating: sketches -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Ideating</h3>
+        <h4 class='pt-2'>Low-fidelity wireframes</h4>
+        <p class='mt-3'>
+          We started off by sketching out different ways to make the searching
+          on Brown Paper Tickets more intuitive and easier to use.
+        </p>
+        <img src='../../img/brownpapertickets/#.png' class='col-md-10 col-sm-12 mx-3 mt-5 align-self-center'>
+      </div>
+
+      <!-- prototype: figma -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Prototype</h3>
+        <h4 class='pt-2'>A More Enjoyable Event Finding Experience</h4>
+          <p class='mt-3'>
+            We combined the best ideas from our low-fidelity sketches and began
+            prototyping. We created two high-fidelity prototypes, one of which
+            promotes event browsing, one of which highlights the many filtering
+            options. I primarily focused on prototype 2, but make sure to give
+            the <a href='#'>first prototype</a> some love!
+          </p>
+          <p class='mt-3'>
+            To simplify the searching experience, we put both the search bar
+            and all the filtering options on the home page. There's also a
+            sorting button to sort the displayed results based on the user's
+            preference.
+          </p>
+          <img src='../../img/brownpapertickets/#.png' class='col mt-1 align-self-center'>
+      </div>
+
+      <!-- user testing pt2 -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>User Testing</h3>
+        <h4 class='pt-3'>Did our prototype resolve the difficult searching experience?</h4>
+          <p class='mt-1'>
+            We interviewed four new users to use our prototype and isolated some major strengths and weaknesses:
+          </p>
+          <h4>Strengths:</h4>
+            <ul>
+              <li>Intuitive and straightforward flow</li>
+              <li>Filters were easy to apply</li>
+              <li>Convenient to use</li>
+            </ul>
+          <h4>Weaknesses:</h4>
+            <ul>
+              <li>Price isn't displayed on the event cards</li>
+              <li>Users wanted more guidance on the search bar</li>
+              <li>Lacked sorting features</li>
+              <li>Missing "clear filter" function</li>
+            </ul>
+      </div>
+
+      <!-- future plans -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Future Plans</h3>
+          <p class='mt-3'>
+            Based on user testing, we would make the following changes:
+          </p>
+          <ul>
+            <li>Display starting prices for each event on the event cards</li>
+            <li>Instead of “Search for events”, include an example search on
+              the search bar such as “Comedy Show” or “December Nights”</li>
+            <li>Include other sorting options for the results</li>
+            <li>Include a “Clear All” button for the filters</li>
+          </ul>
+      </div>
+
+    </div>
+
+
+    <!-- button -->
+    <div class='button d-flex position-relative justify-content-center pb-3 mb-5' data-aos="fade-up" data-aos-duration="1000">
+      <a class='square-button px-4 py-2' href='../../index.html'><h5>MORE PROJECTS</h5></a>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
+      <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
+        <h6 class='mt-5 mb-1'>I like that final prototypes are still just a prototype-- there's always more room for learning and improvement.</h6>
+        <h6 class='mb-3'>Let me know how I can improve.</h6>
+        <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
+        <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
+          <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='www.linkedin.com/in/kylee-peng'>LinkedIn</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
+        </div>
+        <h6 class='mb-5 my-3'>Designed & Developed with many naps</h6>
+      </div>
+    </footer>
+
+  </body>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../../js/script.js"></script>
+
+</html>

@@ -53,10 +53,6 @@
   .project-grid{
     height: 60vh;
   }
-
-  /* .images-grid img{
-    height: 60vh;
-  } */
 }
 
 /* xs-s */
@@ -68,9 +64,6 @@
     font-size: 28px;
     top: -20px;
   }
-  /* .proj-title h2{
-    top:0px;
-  } */
   h3{
     font-size: 22px;
   }
@@ -152,16 +145,6 @@
   .project-grid{
     height: 65vh;
   }
-  /* .title img{
-    width: 40%;
-    padding-top: 5em;
-  }
-  .project-banner{
-    flex-direction: row;
-  }
-  .project-banner img{
-    width: 40%;
-  } */
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -176,12 +159,8 @@
     font-size: 14px;
   }
   a{
-    font-size: 18px;
+    font-size: 15px;
   }
-  /* .title-text, .case-study{
-    padding-left: 7vw;
-    padding-right: 8vw;
-  } */
   .title{
     flex-direction: row;
     padding-bottom: 5;
@@ -189,13 +168,6 @@
   .project-grid{
     height: 70vh;
   }
-  /* .title img{
-    width: 30%;
-    padding-top: 5em;
-  }
-  .images-grid img{
-    width: 30%;
-  } */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -207,6 +179,6 @@
     font-size: 44px;
   }
   a{
-    font-size: 16px;
+    font-size: 15px;
   }
  }

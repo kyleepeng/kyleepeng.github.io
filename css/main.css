@@ -187,6 +187,17 @@ li li{
   transform: scale(1,1);
 }
 
+.amtrak{
+  box-shadow: 10px 10px #b4deff;
+  background-image: url('../img/amtrak/amtrak_mockup.png');
+  transition: all .2s ease-in-out;
+  transform: scale(0.98, 0.98);
+}
+
+.amtrak:hover{
+    transform: scale(1,1);
+}
+
 .illustrations{
   box-shadow: 10px 10px #cec3ff;
   background-image: url('../img/illustrations/illustration.png');

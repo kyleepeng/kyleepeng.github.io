@@ -138,6 +138,11 @@ li li{
 }
 
 /* ----------project---------- */
+img{
+  width: 100%;
+  height: auto;
+}
+
 .projects{
   margin-bottom: 5vh;
 }

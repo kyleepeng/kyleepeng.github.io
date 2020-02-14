@@ -138,9 +138,6 @@ li li{
 }
 
 /* ----------project---------- */
-img {
-  object-fit: cover;
-}
 .projects{
   margin-bottom: 5vh;
 }

@@ -177,7 +177,7 @@ li li{
 }
 
 .brownpapertickets{
-  box-shadow: 10px 10px #ace9e1;
+  box-shadow: 10px 10px #b4deff;
   background-image: url('../img/brownpapertickets/brownpapertickets_mockup.png');
   transition: all .2s ease-in-out;
   transform: scale(0.98, 0.98);
@@ -188,7 +188,7 @@ li li{
 }
 
 .amtrak{
-  box-shadow: 10px 10px #b4deff;
+  box-shadow: 10px 10px #ace9e1;
   background-image: url('../img/amtrak/amtrak_mockup.png');
   transition: all .2s ease-in-out;
   transform: scale(0.98, 0.98);

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mentor Plus — Kylee Peng</title>
+    <!-- CSS -->
+    <link rel="icon" href="../../img/logo_dark.png" type="png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/media_queries.css">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand fixed-top d-flex align-items-center">
+      <a class="navbar-brand mr-auto" href='../../index.html'>
+        <img src="../../img/logo_dark.svg" class="d-inline-block align-top logo img-responsive ml-2">
+      </a>
+      <div class="navbar-nav text-right">
+          <a class="nav-item nav-link m-2 active" href="../../index.html">Home</a>
+          <a class="nav-item nav-link m-2" href="../about.html">About<span class="sr-only">(current)</span></a>
+      </div>
+    </nav>
+
+
+    <!-- title -->
+    <div class="proj-title container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="title-text my-5 pt-5">
+        <h1> </h1>
+        <h2>Mentor Plus</h2>
+        <h4><span id='highlight' class='pt-3'>Encouraging Social Interaction for Better Mentorship Pairings</span></h4>
+    </div>
+    </div>
+
+    <!-- background -->
+    <div class="container background project-banner"
+     style="background-color: #f2f5ff; box-shadow: 10px 10px #abd1ff;"
+     data-aos="fade-up"
+     data-aos-duration="1000">
+     <div class='row'>
+      <div class='d-flex flex-column col-md-7 col-sm-11 my-5 py-2'>
+        <h3>Background</h3>
+        <p class='mt-3'>
+          Mentor Plus was an individual project, created as part of a company's
+          interview process. I was given a week to design an experience that
+          allowed mentors and mentees to discover each other.
+        </p>
+      </div>
+        <img src='../../img/mentor_plus/mentor_plus_mockup2.png' class='col-md-5 col-sm-11 mt-2 img-responsive'>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class='container d-flex flex-column align-items-center'>
+
+      <!-- prompt -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>The Prompt</h3>
+        <h4 class='pt-2'>Mentoring at UCSD</h4>
+        <p class='mt-3'>
+          "Your school wants to strengthen the community by encouraging
+          experienced students to connect with new students and help
+          them adjust to campus life. Design an experience that allows
+          mentors and mentees to discover each other. Consider the needs
+          of both mentors and mentees, including how someone may become a
+          mentor and how to connect mentors to mentees."
+        </p>
+      </div>
+
+      <!-- PHASE 1 empathize -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 1: Empathize</h3>
+        <p class='mt-3'> I interviewed 4 UCSD students and identified pain
+          points within existing mentoring programs at UCSD. </p>
+      </div>
+
+      <!-- mentoring at ucsd -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Pain Points</h3>
+        <h4 class='pt-2'>What problems are current mentoring programs at UCSD facing?</h4>
+        <p class='mt-3'>
+          After analyzing the user interviews, I consolidated their responses into some major pain points:
+        </p>
+
+        <ul class='pl-md-5 pl-sm-3 mt-1'>
+          <li class='mt-1'>UCSD has a culture of being
+          <span style='font-weight: bold; color: #253C70;'>socially dead, </span>
+          unless you actively attempt to meet new people.
+          </li>
+
+          <li class='mt-1'>
+            <span style='font-weight: bold; color: #253C70;'>
+              Limited social interaction
+            </span>
+            before pairing mentors and mentees make it difficult to find a good pairing
+          </li>
+
+          <li class='mt-1'>
+            Students look for
+          <span style='font-weight: bold; color: #253C70;'>
+          specific personality traits</span>
+           when choosing a mentor/mentee.
+          </li>
+
+          <li class='mt-1'>
+            Most of the qualifications for mentors are
+            <span style='font-weight: bold; color: #253C70;'>
+              subjective
+            </span>
+             and are validated by previous mentors.
+          </li>
+        </ul>
+      </div>
+
+      <!-- PHASE 2 define -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 2: Define</h3>
+        <p class='mt-3'> I created How Can We statements and chose one
+          that best targeted the pain points.</p>
+      </div>
+
+
+      <!-- pain points -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>How Can We..?</h3>
+        <h4 class='pt-2'>... solve these pain points?</h4>
+        <p class='mt-3'>
+          With these pain points in mind from my user interviews, I created
+          this How Can We statement to define the scope of the project:
+        </p>
+        <p class='mt-2'><span style='font-weight: bold; color: #253C70;'>
+          How can we promote more social interactions to create better
+          mentor/mentee pairings among UCSD students?
+        </span>
+      </p>
+      </div>
+
+      <!-- PHASE 3 ideate -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 3: Ideate</h3>
+        <p class='mt-3'> I generated a bunch of ideas and focused on one to prototype: Mentor Pair Challenges.</p>
+      </div>
+
+      <!-- initial idea 1 -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Coffee with a Friend</h3>
+          <p class='mt-3'>
+            Get paired with a student, go on a coffee date, and have several
+            conversations before settling on a mentor or mentee.
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Pro: </span>More intimate, one to one conversations
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Con: </span>Takes more time to find someone with a compatible personality
+          </p>
+      </div>
+
+      <!-- initial idea 2 -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Mentor Tinder</h3>
+          <p class='mt-3'>
+            Swipe through profiles to begin chatting.
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Pro: </span>More options
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Con: </span>Abundance of options might result in reluctance to commit to a single mentor/mentee
+          </p>
+      </div>
+
+      <!-- final idea -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Final Idea: Mentor Pair Challenges</h3>
+          <p class='mt-3'>
+            Students complete challenges with potential mentors/mentees to get to know one another better.
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Pro: </span>Problem solving challenges can reveal more about the pair’s compatibility
+          </p>
+          <p class='mt-3'>
+            <span style='font-weight: bold; color: #253C70;'>
+            Con: </span>Challenges may result in competitions among students for their desired pairings
+          </p>
+      </div>
+
+      <!-- PHASE 4 prototype lowfi -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 4: Prototype (Low-Fi)</h3>
+        <p class='mt-3'> I created journey maps for both mentors and mentees,
+          then began sketching to map out the user flow. Then, I moved onto
+          Sketch to create low-fidelity wireframes.</p>
+      </div>
+
+      <!-- journey mapping -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Journey Mapping</h3>
+          <p class='mt-3'>
+            Mentees:
+          </p>
+          <img src='../../img/mentor_plus/mentee.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <p class='mt-3'>
+            Mentors:
+          </p>
+          <img src='../../img/mentor_plus/mentor.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+      </div>
+
+      <!-- Sketches -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Sketches</h3>
+          <p class='mt-3'>
+            With the journey map in mind for both mentors and mentees, I
+            sketched out the screens to map out the user flow. After a
+            few iterations, I moved over to Sketch to create low-fidelity
+            wireframes.
+          </p>
+          <div class='images-grid row justify-self-center'>
+            <img src='../../img/mentor_plus/sketch1.png' class='col-6 mt-4'>
+            <img src='../../img/mentor_plus/sketch2.png' class='col-6 mt-4'>
+          </div>
+      </div>
+
+      <!-- wireframe -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Wireframes</h3>
+          <p class='mt-3'>
+            This is the complete user flow of the challenge platform.
+            Since the flow for both mentors and mentees were similar,
+            I decided combine the two for the low-fidelity prototype
+            to focus on the functionality.
+          </p>
+          <div class='images-grid row justify-self-center'>
+            <img src='../../img/mentor_plus/wireframe1.png' class='col-6 mt-4'>
+            <img src='../../img/mentor_plus/wireframe2.png' class='col-6 mt-4'>
+          </div>
+          <p class='mt-5'>
+            I decided to separate the functions into three main tabs: Discover, Challenge, and Profile.
+          </p>
+          <div class='images-grid row justify-self-center'>
+            <img src='../../img/mentor_plus/wireframe_discover.png' class='col-4 mt-4'>
+            <img src='../../img/mentor_plus/wireframe_challenge.png' class='col-4 mt-4'>
+            <img src='../../img/mentor_plus/wireframe_profile.png' class='col-4 mt-4'>
+          </div>
+          <!-- discover -->
+          <p class='mt-3'> The <span style='font-weight: bold; color: #253C70;'>Discover
+            </span> tab allows users to find and connect with potential mentors
+            or mentees.
+          </p>
+          <ul class='pl-md-5 pl-sm-3 mt-1'>
+            <li class='mt-1'> As the first page, the Discover page highlights
+              the functionality of discovering new people and strengthening
+              existing relationships.</li>
+            <li class='mt-1'> Connecting with a mentor/mentee would start a
+              conversation with them.</li>
+            <li class='mt-1'> Users can also see their profiles for more
+              information about the mentor/mentee.</li>
+          </ul>
+          <!-- challenge -->
+          <p class='mt-3'> The <span style='font-weight: bold; color: #253C70;'>Challenge
+          </span> tab allows users to find popular and recommended challenges
+          to compete with their potential mentors or mentees.
+          </p>
+          <ul class='pl-md-5 pl-sm-3 mt-1'>
+            <li class='mt-1'> Popular and normal recommended challenge cards
+              have different designs to bring emphasis on its popularity.</li>
+            <li class='mt-1'> Users can see their connections here as well for
+              easy access.</li>
+          </ul>
+
+          <!-- profile -->
+          <p class='mt-3'> The <span style='font-weight: bold; color: #253C70;'>Profile
+          </span> tab gives users access to who they're connected with and how
+          many challenges they've completed with each connection.
+          </p>
+          <ul class='pl-md-5 pl-sm-3 mt-1'>
+            <li class='mt-1'> The collapsable leaderboard allows users to access
+              settings even with many connections.</li>
+            <li class='mt-1'> Users can edit their profiles as well.</li>
+          </ul>
+
+          <!-- onboarding -->
+          <p class='mt-5'> For the <span style='font-weight: bold; color: #253C70;'>Onboarding</span> process, I spent extra time on
+            designing how students can become a mentor.</p>
+          <img src='../../img/mentor_plus/wireframe_onboarding.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <p class='mt-3'> Since the qualifications to become a mentor are
+            subjective, I decided to leave it up for users to decide
+            whether they were qualified or not using a warning notification.</p>
+          <img src='../../img/mentor_plus/wireframe_onboarding2.png' class='col-md-4 col-sm-6 col-xs-8 mx-3 mt-5 align-self-center'>
+
+
+          <!-- Creating Connections -->
+          <p class='mt-5'> To <span style='font-weight: bold; color: #253C70;'>create connections</span>,
+            users can connect with mentor or mentee profiles to initiate a message.</p>
+          <img src='../../img/mentor_plus/wireframe_createconn.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+
+          <!-- challenge process -->
+          <p class='mt-5'>These screens reflect the steps to <span style='font-weight: bold; color: #253C70;'>
+            complete a challenge</span>.</p>
+          <img src='../../img/mentor_plus/wireframe_challengeprocess.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <p class='mt-5'>The challenge results page places emphasis on the number of completed challenges to quantify users' relationship growth.</p>
+          <img src='../../img/mentor_plus/wireframe_challengeprocess2.png' class='col-md-4 col-sm-6 col-xs-8 mx-3 mt-5 align-self-center'>
+
+          <!-- send challenge -->
+          <p class='mt-5'>These screens reflect the steps to <span style='font-weight: bold; color: #253C70;'>
+            send and start a challenge</span>.</p>
+          <img src='../../img/mentor_plus/wireframe_sendchallenge.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <p class='mt-5'>The challenge results page places emphasis on the number of completed challenges to quantify users' relationship growth.</p>
+          <img src='../../img/mentor_plus/wireframe_sendchallenge2.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+      </div>
+
+      <!-- PHASE 5 prototype highfi -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 5: Prototype (High-Fi)</h3>
+        <p class='mt-3'> I created high fidelity prototypes on Sketch.</p>
+      </div>
+
+
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+        <h3>Prototype</h3>
+          <p class='mt-3'>
+            In order to make the prototype interactive, I separated the flow
+            between mentors and mentees. I focused on providing more feedback
+            when an action was completed and ensuring that all the links were
+            connected properly with no broken flows. I also focused on the
+            visual design, following the Material Design guidelines.
+          </p>
+          <img src='../../img/mentor_plus/prototype.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+
+          <!-- diff:mentor/mentee -->
+          <p class='mt-5'>
+            Onboarding was the only portion that was different for mentors and mentees.
+            Mentors had an <span style='font-weight: bold; color: #253C70;'>extra warning</span>
+            that reminded them of the responsibilities of mentoring.
+          </p>
+          <img src='../../img/mentor_plus/prototype_onboarding.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+
+          <!-- create connections -->
+          <p class='mt-5'>
+            Users are prompted to <span style='font-weight: bold; color: #253C70;'>create their first connection</span>
+            once they sign up. These actions are the most prominent to ensure that users take the action.
+          </p>
+          <img src='../../img/mentor_plus/prototype_connections.png' class='col-md-6 col-sm-6 col-xs-8 mx-3 mt-5 align-self-center'>
+
+          <!-- exit challenge -->
+          <p class='mt-5'>
+            The top banner shows that <span style='font-weight: bold; color: #253C70;'>challenges are ongoing.</span>
+            Warnings are set so users don't accidentally exit the challenge.
+          </p>
+          <img src='../../img/mentor_plus/prototype_exitchallenge.png' class='col-md-6 col-sm-6 col-xs-8 mx-3 mt-5 align-self-center'>
+
+          <!-- ongoing challenges -->
+          <p class='mt-5'>
+            The loading screen conveys that <span style='font-weight: bold; color: #253C70;'>challenges need to be completed at the same time.</span>
+            Completing challenges at the same time would give a feeling of connection and higher level of intimacy.
+          </p>
+          <img src='../../img/mentor_plus/prototype_2pplchallenge.png' class='col-md-6 col-sm-6 col-xs-8 mx-3 mt-5 align-self-center'>
+
+          <p class='mt-5'>
+            Here are the rest of the screens in high-fidelity.
+          </p>
+          <img src='../../img/mentor_plus/prototype_final1.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <img src='../../img/mentor_plus/prototype_final2.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+          <img src='../../img/mentor_plus/prototype_final3.png' class='col-md-12 col-sm-12 col-xs-12 mx-3 mt-5 align-self-center'>
+      </div>
+
+
+      <!-- PHASE 6 reflections -->
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2'
+      style="background-color: #f2f5ff;"
+      data-aos="fade-up" data-aos-duration="1000">
+        <h3 class='mt-2'>Phase 6: Reflections & Future Plans</h3>
+        <p class='mt-3'> How can I do better?</p>
+      </div>
+
+      <div class='section col-lg-10 col-sm-12 d-flex flex-column justify-content-center my-5 py-2' data-aos="fade-up" data-aos-duration="1000">
+      <p class='mt-3'>To continue the project, I would:</p>
+      <ul class='pl-md-5 pl-sm-3 mt-1'>
+        <li class='mt-1'>
+        <span style='font-weight: bold; color: #253C70;'>test the functionality:</span>
+        does completing challenges together actually allow students to better understand each other’s personalities?
+        </li>
+
+        <li class='mt-1'>conduct
+          <span style='font-weight: bold; color: #253C70;'>
+            usability tests and iterate on the feedback.
+          </span>
+          I’m certain there are some usability errors that I failed to catch while I was prototyping.
+        </li>
+
+        <li class='mt-1'>
+          brush up on
+        <span style='font-weight: bold; color: #253C70;'>
+        Material Design's guidelines</span>
+         and rethink the UI.
+        </li>
+
+        <li class='mt-1'>
+          develop prototypes for
+          <span style='font-weight: bold; color: #253C70;'>
+            different challenges.
+          </span>
+          The idea of an in-person AR escape room challenge came to mind,
+          and I’d love to prototype and test that idea!
+        </li>
+      </ul>
+    </div>
+
+    </div>
+
+
+    <!-- button -->
+    <div class='button d-flex position-relative justify-content-center pb-3 mb-5' data-aos="fade-up" data-aos-duration="1000">
+      <a class='square-button px-4 py-2' href='../../index.html'><h5>MORE PROJECTS</h5></a>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer mx-auto py-3 text-center position-absolute mt-5 py-5 vw-100" data-aos="fade-up" data-aos-duration="1000">
+      <div class='container col-lg-8 col-sm-10 d-flex flex-column justify-content-center'>
+        <h6 class='mt-5 mb-1'>I like that final prototypes are still just a prototype-- there's always more room for learning and improvement.</h6>
+        <h6 class='mb-3'>Let me know how I can improve.</h6>
+        <a class='email mt-3' href='mailto:kap038@ucsd.edu'>kap038@ucsd.edu</a>
+        <div class='footer-icons mb-3 mt-2 d-flex align-items-center justify-content-center'>
+          <a class='mx-2' href='https://github.com/kyleepeng'>Github</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='www.linkedin.com/in/kylee-peng'>LinkedIn</a>
+          <span class="dot"></span>
+          <a class='mx-2' href='mailto:kap038@ucsd.edu'>Email</a>
+        </div>
+        <h6 class='mb-5 my-3'>Designed & developed with many naps</h6>
+      </div>
+    </footer>
+
+  </body>
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../../js/script.js"></script>
+
+</html>
